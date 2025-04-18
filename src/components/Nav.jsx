@@ -1,6 +1,6 @@
 import { headerLogo} from '../../assets/images';
-import { hamburger } from '../../assets/icons';
 import { navLinks } from './constants';
+import { hamburger } from '../../assets/icons';
 const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
@@ -19,11 +19,18 @@ const Nav = () => {
                         <a 
                         href='{item.href}'
                         className='fonts-monts errat leading-normal text-lg text-slate-gray'>
-                            {item.label}
+                            {item.label}    
                         </a>
                     </li>
                 ))}
             </ul>
+            <div className="hidden max-lg:block">
+                <img 
+                src={hamburger} 
+                alt="hamburger"
+                width={25}
+                height={25} />
+            </div>
         </nav>
         
     </header>
