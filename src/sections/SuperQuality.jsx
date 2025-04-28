@@ -2,10 +2,10 @@ import { shoe8 } from "../../assets/images"
 import Button from "../components/Button"
 const SuperQuality = () => {
   return (
-    <section id="about-us"
-    className="flex justify-between item-center
-    max-lg:flex-col gap-10 w-full max-container">
-
+    <section
+      id='about-us'
+      className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
+    >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
           We Provide You
@@ -34,7 +34,6 @@ const SuperQuality = () => {
           className='object-contain'
         />
       </div>
-
     </section>
   )
 }
